@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@700&family=Open+Sans:wght@300&family=PT+Sans:ital@1&family=Playfair+Display&family=Roboto+Slab:wght@700&family=Space+Mono&family=Victor+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Victor Mono', monospace;
+    text-align: center;
+}
+
+
+        .text-solid{
+            font-family: 'Victor Mono', monospace;
+        }
+
+.intro-image {
+    background-image: url('../img/arm.webp');
+    background-size: contain;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: -4rem;
+}
+
+.introlink {
+    background-color: #703b236e;
+    color: #d7dcdd;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.introlink:hover {
+    transform: scale(1.2)
+}
+
+.intro-text {
+    height: 300px;
+    background-color: #7b6657;
+    color: #d7dcdd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(20% 13%, 100% 0, 100% 43%, 100% 79%, 100% 100%, 70% 94%, 0 100%, 0% 43%, 0 0);
+}
+
+
+
+.intro-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.quality-image {
+    height: 450px;
+    background-image: url('../img/candle.webp');
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+
+}
+
+.qualitylink {
+    text-decoration: none;
+    background-color: #19223860;
+    color: #e1e3d7;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+
+.qualitylink:hover {
+    transform: scale(1.2)
+}
+
+.quality-text {
+    height: 300px;
+    background-color: #3a565f;
+    color: #e0e2d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(20% 13%, 100% 0, 100% 43%, 100% 79%, 100% 100%, 70% 94%, 0 100%, 0% 43%, 0 0);
+}
+
+.quality-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+
+.footer {
+    height: 200px;
+    background-color: #3a565f;
+    color: #d7dcdd;
+    padding-top: 5rem;
+    font-size: 1.2rem;
+    margin-top: -3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+
+}
+
+.footer ul li a {
+    color: #d7dcdd;
+    text-decoration: none;
+}
+
+
+.origin-image {
+    height: 450px;
+    background-image: url('../img/lights.webp');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: -3rem;
+    margin-top: -3rem;
+
+}
+
+.originlink {
+    text-decoration: none;
+    background-color: #132e2f73;
+    color: #e1e3d7;
+    padding: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+
+.originlink:hover {
+    transform: scale(1.2)
+}
+
+.origin-text {
+    height: 250px;
+    background-color: #c9b195;
+    color: #2b3840;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(20% 13%, 100% 0, 100% 43%, 100% 79%, 100% 100%, 70% 94%, 0 100%, 0% 43%, 0 0);
+}
+
+
+.origin-text h3 {
+    font-size: 2 rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
